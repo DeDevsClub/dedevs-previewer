@@ -12,7 +12,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { AlertCircle, ExternalLink } from "lucide-react"
 
-export function OGPreviewer() {
+export default function OGPreviewer() {
   const [url, setUrl] = useState("")
   const [ogData, setOgData] = useState<any>(null)
   const [loading, setLoading] = useState(false)
@@ -168,4 +168,3 @@ export function OGPreviewer() {
     </div>
   )
 }
-

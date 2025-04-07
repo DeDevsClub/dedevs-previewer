@@ -11,7 +11,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { HelpCircle, ImageIcon, Settings, FileCode, Lightbulb, AlertCircle, Gauge } from "lucide-react"
-import { ThemeToggle } from "./theme-toggle"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export function DropdownMenuComponent() {
   return (

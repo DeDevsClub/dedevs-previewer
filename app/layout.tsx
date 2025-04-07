@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "DeDevs Previewer",
-  description: "Preview Open Graph data for any URL"
+  description: "A comprehensive dashboard for Open Graph previewing and optimization",
 }
 
 export default function RootLayout({
@@ -26,7 +26,5 @@ export default function RootLayout({
     </html>
   )
 }
-
-
 
 import './globals.css'
