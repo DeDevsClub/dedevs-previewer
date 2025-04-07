@@ -55,9 +55,9 @@ export default function OGDashboardPage() {
         </div>
         <div className="flex items-center gap-2">
           <ThemeToggle />
-          <Button variant="outline" className="gap-1">
+          <Button variant="outline" className="gap-1" onClick={() => window.open("https://docs.dedevs.club", "_blank")}>
             <FileCode className="h-4 w-4" />
-            View Documentation
+            View Docs
           </Button>
         </div>
       </div>
